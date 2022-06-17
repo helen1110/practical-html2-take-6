@@ -69,13 +69,27 @@
     top: -70px;
     min-height: 40px;
 }
+.article-2 p{
+    font-size: 12px;
+    width: 95%;
+}
 .artical-3{
     position: relative;
     top: -350px;
    min-height: 40px;
 }
 #update-section{
-    min-height: 35vh;
+    min-height: 30vh;
+    background: #283779;
+}
+#update-section p{
+    font-size: 12x;
+    width: 85%;
+}
+#department-section{
+    background: rgba(27, 113, 161, 0.8);
+}
+.last-page{
     background: #283779;
 }
 
