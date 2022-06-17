@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.location-1{
+    border-radius:8px 0 0 8px ;
+    padding:5px ;
+    width: 140px;
+    border: 1px solid black;
+}
+.search-1{
+    border-radius:0 8px 8px 0;
+    padding:5px ;
+    margin-left: -4px;
+    width: 400px;
+    border: 1px solid black;
+    border-left: 0;
+}
+.btn{
+    border-radius: 10px !important;
+}
+#page-cover{
+    background: url(https://res.cloudinary.com/doivnxitm/image/upload/v1655416443/Rectangle_187_ukmjxa.png) no-repeat;
+    min-height: 25vh;
+}
+.text-report h1 p{
+    margin-bottom: 10rem !important;
+}
+#ivf-section{
+    background: rgba(178, 221, 237, 0.3);
+    min-height: 80vh;
+}
+#ivf-section .card{
+    background: #4C84C3;
+    border-radius: 20px !important;
+}
+#theater-room{
+    position: relative;
+    top: -80px;
+    left: 0;
+    z-index: 80;
+}
+#doctors-section{
+    background: rgba(178, 221, 237, 0.3);
+}
+#educational-background .card{
+    width: 450px;
+    margin-left: 50px;
+}
+#educational-background{
+    min-height: 100vh;
+}
+.text-body{
+    background: rgba(178, 221, 237, 0.3);
+    position: absolute;
+    width: 100% !important;
+    min-height: 35vh;
+    padding: 20px 30px;
+    left:0;
+    margin-top: 45px !important;
+}
+.article-1{
+    min-height: 40vh;
+    position: relative;
+}
+.article-2{
+    position: relative;
+    top: -70px;
+    min-height: 40px;
+}
+.artical-3{
+    position: relative;
+    top: -350px;
+   min-height: 40px;
+}
+#update-section{
+    min-height: 35vh;
+    background: #283779;
+}
+
+
+    
