@@ -45,7 +45,7 @@
     background: rgba(178, 221, 237, 0.3);
 }
 #educational-background .card{
-    width: 450px;
+    /* width: 450px; */
     margin-left: 50px;
 }
 #educational-background{
@@ -91,6 +91,46 @@
 }
 .last-page{
     background: #283779;
+}
+
+@media (max-width: 426px){
+    .location-1{
+        width: 100%;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+    .search-1{
+        margin-bottom: 3px;
+        border: 1px solid black;
+        width: 100%;
+        margin-left: 0;
+    }
+    .image-page img{
+        width: 40% !important;
+    }
+    .swiper-slide img{
+        width: 100%;
+    }
+    #ivf-section .card{
+        border-radius: 0 !important;
+        width: 100% !important;
+    }
+    #educational-background .card{
+        position: static;
+        margin: 5px 0;;
+    }
+    
+}
+@media (max-width: 769px){
+    .image-page img{
+        width: 40%;
+    }
+    .swiper-slide img{
+        width: 100%;
+    }
+    #nurse-section img{
+        width: 100%;
+    }
 }
 
 
